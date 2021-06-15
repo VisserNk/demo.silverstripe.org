@@ -9,3 +9,4 @@ chmod -R 777 assets
 chown www-data:www-data vendor
 ./vendor/bin/sake installsake
 sake dev/tasks/DemoResetTask
+chown -R www-data:www-data assets
