@@ -5,4 +5,5 @@ composer install
 mkdir silverstripe-cache
 chown -R www-data:www-data silverstripe-cache
 chmod -R 777 silverstripe-cache
+./vendor/bin/sake installsake
 sake dev/tasks/DemoResetTask
